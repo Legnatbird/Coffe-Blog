@@ -67,3 +67,34 @@ img{
     color:var(--white);
     margin-top: 5rem;
 }
+@media (min-width: 768px) {
+   .header__text{
+       margin-top: 15rem;
+   }
+   .bar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+}
+.logo{
+    color: var(--white);
+}
+.logo__name{
+    font-weight: bold; /* bold = 700 */
+}
+.logo__bold{
+    font-weight: normal; /* normal = 400 */
+}
+@media (min-width: 768px) {
+    .navigation{
+        display: flex;
+        gap: 2rem;
+    }
+ }
+.navigation__link{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--white);
+}
