@@ -98,3 +98,10 @@ img{
     font-size: 1.8rem;
     color: var(--white);
 }
+@media (min-width: 768px) {
+   .principal-content{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+       column-gap: 4rem;
+   }
+}
