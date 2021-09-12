@@ -166,3 +166,16 @@ img{
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+/* About Us */
+@media (min-width: 768px) {
+   .about-us{
+        display: flex;
+        justify-content: space-between;
+   }
+   .about-us__image,
+   .about-us__text{
+       flex-basis: calc(50% - 1rem);
+   }
+}
+.about-us__text{
+    font-size: 2rem;
